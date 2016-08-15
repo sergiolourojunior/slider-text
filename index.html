@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider text</title>
+	<meta charset="utf-8">
+	<style>
+		slider {
+			display: none;
+		}
+		#conteudo {
+			border: solid 1px #000;
+			width: 250px;
+			height: 250px;
+		}
+		.atual {
+			color: blue;
+			font-size: 20px;
+		}
+	</style>
+
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<section id="slider">
+		<slider>Conteúdo 01</slider>
+		<slider>Conteúdo 02</slider>
+		<slider>Conteúdo 03</slider>
+		<slider>Conteúdo 04</slider>
+		<slider>Conteúdo 05</slider>
+		<article id="conteudo"></article>
+		<span id="balls"></span>
+		<main><button id="anterior" disabled="disabled"><</button><button id="proximo">></button></main>
+	</section>
+</body>
+</html>
